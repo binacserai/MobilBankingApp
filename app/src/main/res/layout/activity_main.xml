@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HOME">
+
+
+    <!-- Add your desired views here -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/sky"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Chrish Tlayour"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/account2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ACCOUNT NUMBER :- 77892345"
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+
+
+
+        <Button
+            android:id="@+id/transfer4"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="5dp"
+
+            android:text="TRANSFER"
+
+
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#E7F0F1"
+            app:backgroundTintMode="screen"
+            app:iconTintMode="multiply"
+            app:strokeColor="#0D1337"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/sky"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951">
+
+        <TextView
+
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="David Clark"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/account1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ACCOUNT NUMBER :- 83686842"
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/transfer5"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="5dp"
+
+            android:text="TRANSFER"
+
+
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#E7F0F1"
+            app:backgroundTintMode="screen"
+            app:iconTintMode="multiply"
+            app:strokeColor="#0D1337"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/sky"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471">
+
+        <TextView
+
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Jhonson Smith"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/account3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ACCOUNT NUMBER :- 56802345"
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/transfer3"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="5dp"
+
+            android:text="TRANSFER"
+
+
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#E7F0F1"
+            app:backgroundTintMode="screen"
+            app:iconTintMode="multiply"
+            app:strokeColor="#0D1337"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/sky"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232">
+
+        <TextView
+
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Chrish Tlayour"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/account5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ACCOUNT NUMBER :- 37128730"
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/transfer2"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="5dp"
+
+            android:text="TRANSFER"
+
+
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#E7F0F1"
+            app:backgroundTintMode="screen"
+            app:iconTintMode="multiply"
+            app:strokeColor="#0D1337"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        android:background="@color/sky"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:radius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006">
+
+        <TextView
+
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Rubbel Warn"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/account4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ACCOUNT NUMBER :- 32456709"
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/transfer1"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="5dp"
+
+            android:text="TRANSFER"
+
+
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#E7F0F1"
+            app:backgroundTintMode="screen"
+            app:iconTintMode="multiply"
+            app:strokeColor="#0D1337"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/chech_history"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="CHECK HISTORY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
